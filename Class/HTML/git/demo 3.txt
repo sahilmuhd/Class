@@ -1,0 +1,129 @@
+sahil@Sahil MINGW64 ~/Desktop/git
+$ git config --global user.name 'sahilmuhd'
+
+sahil@Sahil MINGW64 ~/Desktop/git
+$
+Display all 5157 possibilities? (y or n)
+
+sahil@Sahil MINGW64 ~/Desktop/git
+$ git config --global user.email"sahilmuhd123@gmail.com"
+
+sahil@Sahil MINGW64 ~/Desktop/git
+$ git config --global user.email "sahilmuhd123@gmail.com"
+
+sahil@Sahil MINGW64 ~/Desktop/git
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=sahilmuhd
+user.email=sahilmuhd123@gmail.com
+
+sahil@Sahil MINGW64 ~/Desktop/git
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=sahilmuhd
+user.email=sahilmuhd123@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/sahilmuhd/git-demo.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+sahil@Sahil MINGW64 ~/Desktop/git (master)
+$ git add .
+
+sahil@Sahil MINGW64 ~/Desktop/git (master)
+$ git list
+git: 'list' is not a git command. See 'git --help'.
+
+The most similar commands are
+        bisect
+        rev-list
+
+sahil@Sahil MINGW64 ~/Desktop/git (master)
+$ git -list
+unknown option: -list
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+sahil@Sahil MINGW64 ~/Desktop/git (master)
+$ git branch feature-1
+
+sahil@Sahil MINGW64 ~/Desktop/git (master)
+$ git branch --all
+  feature-1
+* master
+  remotes/origin/master
+
+sahil@Sahil MINGW64 ~/Desktop/git (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=sahilmuhd
+user.email=sahilmuhd123@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/sahilmuhd/git-demo.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+sahil@Sahil MINGW64 ~/Desktop/git (master)
+$
