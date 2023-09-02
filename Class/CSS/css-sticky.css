@@ -1,0 +1,29 @@
+#div1{
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    overflow: auto;
+}
+
+.red{
+    width: 600px;
+    height: 30px;
+    background-color: red;
+}
+
+.blue{
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+    position: sticky;
+    top: 0;
+}
+
+.green{
+    width: 600px;
+    height: 150px;
+    background-color: green;
+    position: sticky;
+    bottom: 10px;
+
+}

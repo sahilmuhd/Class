@@ -1,0 +1,84 @@
+/* color properties */
+
+h1 {
+    /* color: blueviolet; */
+    /* color: rgb(17, 137, 73); */
+    /* color: rgb(255, 0, 0); */
+    color: #08a922;
+}
+
+/* border properties */
+
+h1 {
+    /* border: 2px solid aquamarine; */
+    border-color: red;
+    /* border-style: solid; */
+    border-top-style: dashed;
+    border-bottom-style: double;
+    border-left-style: groove;
+    border-right-style: inherit;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+/* background properties */
+
+div {
+    width: 600px;
+    height: 500px;
+    background-color: violet;
+    background-image: url("https://picsum.photos/200/300");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    background-position: center;
+
+}
+
+/* font properties */
+
+#p1 {
+    /* font-size: 24px; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    /* font-variant: small-caps; */
+    font: italic small-caps bold 24px Georgia;
+}
+
+#p2 {
+    color: yellowgreen;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px green;
+}
+
+#users td,
+#users th {
+
+    border: 1px solid;
+    padding: 10px;
+}
+
+#users {
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#users th {
+    background-color: #08a922;
+    color: white;
+    padding: 7px;
+}
+
+#users tr:nth-child(even) {
+    background-color: aqua;
+}
+
+#users tr:hover{
+    background-color: antiquewhite;
+}

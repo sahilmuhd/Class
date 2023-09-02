@@ -1,0 +1,26 @@
+/*float/css properties  */
+
+#div1{
+    background-color: aqua;
+}
+
+
+#div2{
+    background-color: darkblue;
+}
+
+
+#div3{
+    background-color: darkcyan;
+}
+
+
+#div4{
+    background-color: aquamarine;
+}
+
+div{
+    float: left;
+    width: 25%;
+    height: 300px;
+}

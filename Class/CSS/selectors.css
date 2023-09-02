@@ -1,0 +1,14 @@
+/* id selector */
+
+#heading{
+    color: blue;
+    font-size: 25px;
+}
+
+/* id selector */
+
+.section{
+    font-size: 24px;
+    background-color: brown;
+    color: coral;
+}

@@ -1,0 +1,33 @@
+#div1{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* position: fixed; */
+    /* right: 10px; */
+    /* top: 10px;    */
+}
+
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+img{
+    position: fixed;
+    /* top: 10px; */
+    right: 10px;
+}

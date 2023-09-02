@@ -1,0 +1,13 @@
+li{
+    color: brown;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+h3{
+    color: blue;
+    font-variant: small-caps;
+}
