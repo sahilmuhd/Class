@@ -1,0 +1,49 @@
+#gallery{
+    height: 80vh;
+    width: 80vw;
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    padding: 15px;
+}
+
+.box1{
+    background-color: brown;
+    border: 1px solid;
+    /* grid-column-start: 1; */
+    /* grid-column-end: 4; */
+    grid-area: 1/1/2/4;
+
+}
+.box2{
+    background-color: blueviolet;
+    border: 1px solid;
+    /* grid-column-start: 1; */
+    /* grid-column-end: 2; */
+    grid-area: 2/1/4/2;
+}
+.box3{
+    background-color: cadetblue;
+    border: 1px solid;
+    /* grid-column-start: 2; */
+    /* grid-column-end: 3; */
+    grid-area: 2/2/3/3;
+}
+.box4{
+    background-color: chartreuse;
+    border: 1px solid;
+    /* grid-column-start: 3; */
+    /* grid-column-end: 4; */
+    grid-area: 2/3/3/4;
+}
+.box5{
+    background-color: tomato;
+    border: 1px solid;
+    grid-area: 3/2/4/4;
+}
+.box6{
+    background-color: violet;
+    border: 1px solid;
+    grid-area: 4/1/4/4;
+}

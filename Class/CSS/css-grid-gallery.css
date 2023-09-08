@@ -1,0 +1,19 @@
+.item{
+    background-color: greenyellow;
+}
+
+#gallery div{
+    padding: 20px;
+    margin: 2px;
+    /* width: 250px; */
+    /* height: 400px; */
+}
+#gallery{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 180px 180px;
+    background-color: brown;
+    padding: 15px;
+    justify-content: center;
+    grid-gap: 5px;
+}
